@@ -1,0 +1,26 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#background{
+    margin-top: 200px;
+}
+#img{
+    width: 300px;
+    height: 300px;
+}
+#btn{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+button{
+    border:none;
+    border-radius: 20px 10px;
+}
